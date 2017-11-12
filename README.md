@@ -28,4 +28,4 @@ Incase of any inquiries feel free to contact me at my email wilsonmwangeka@gmail
 
 *MIT License*
 
-Copyright (c) 2017 Williz4 
+Copyright (c) 2017 Williz4 (https://github.com/Williz4/gitcommands/blob/master/LICENSE)
