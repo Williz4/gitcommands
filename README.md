@@ -10,8 +10,8 @@ Git commands is a simple site that serves as a reference point for the various G
 
 ## Setup/Installation Requirements
 
-Load the page at ().
-You are now free to view the various Git commands. 
+*Load the page at ().
+*You are now free to view the various Git commands. 
 
 ## Known Bugs
 There are currently no known bugs in this website.

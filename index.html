@@ -61,15 +61,15 @@
 
 						<tr>
 
-						<td>git config --global user.name “[firstname lastname]”</td>
-						<td>set a name that is identifiable for credit when review version history.</td>
+							<td>git config --global user.name “[firstname lastname]”</td>
+							<td>set a name that is identifiable for credit when review version history.</td>
 
 						</tr>
 
 						<tr>
 
-						<td>git config --global user.email “[email]”</td>
-						<td>set an email address that will be associated with each history marker.</td>
+							<td>git config --global user.email “[email]”</td>
+							<td>set an email address that will be associated with each history marker.</td>
 						
 						</tr>
 
@@ -79,7 +79,7 @@
 
 				</article>
 
-				<artilce>
+				<article>
 
 					<hgroup>
 
@@ -105,15 +105,15 @@
 
 						<tr>
 
-						<td>git init</td>
-						<td>initializes an existing directory as a Git repository by adding the .git file that is by default hidden.</td>
+							<td>git init</td>
+							<td>initializes an existing directory as a Git repository by adding the .git file that is by default hidden.</td>
 
 						</tr>
 
 						<tr>
 
-						<td>git clone [url]</td>
-						<td>creates a local copy of a remote/hosted repository.</td>
+							<td>git clone [url]</td>
+							<td>creates a local copy of a remote/hosted repository.</td>
 						
 						</tr>
 
@@ -121,7 +121,200 @@
 
 					</table>
 
-				</artilce>
+				</article>
+
+				<article>
+
+					<hgroup>
+
+						<h2>Stage & Snapshot</h2>
+						<h3>Working with snapshots and the Git staging area</h3>
+
+					</hgroup>
+
+					<table class="table table-striped">
+
+						<thead>
+
+						<tr>
+
+							<th>Command</th>
+							<th>Description</th>
+
+						</tr>
+
+						</thead>
+
+						<tbody>
+
+						<tr>
+
+							<td>git status</td>
+							<td>show modified files in working directory and stages them for the next commit.</td>
+
+						</tr>
+
+						<tr>
+
+							<td>git add [file]</td>
+							<td>add a file as it looks now to your next commit (stage).</td>
+						
+						</tr>
+
+						<tr>
+
+							<td>git add -a</td>
+							<td>instead of git add [file] to save on time you can use the "git add -a" thats adds all new and changed files to the staging area.</td>
+						
+						</tr>
+
+						<tr>
+
+							<td>git commit -m "[descriptive message]"</td>
+							<td>commits your staged content.</td>
+						
+						</tr>
+
+						<tr>
+
+							<td>git reset [file]</td>
+							<td>unstage a file while retaining the changes in working directory. For more information on git reset [file] reference this <a href="https://git-scm.com/docs/git-reset" target="_blank">article.</a></td>
+						
+						</tr>
+
+						<tr>
+
+							<td>git rm -r [file-name.txt]</td>
+							<td>remove a file (or folder).</td>
+						
+						</tr>
+
+						<tr>
+
+							<td>git diff</td>
+							<td>diff of what is changed but not staged. For more information about git diff consult this <a href="https://git-scm.com/docs/git-diff">article.</a></td>
+						
+						</tr>
+
+						<tr>
+
+							<td>git diff --staged</td>
+							<td>diff of what is staged but not yet commited.</td>
+						
+						</tr>
+
+						</tbody>
+
+					</table>
+
+				</article>
+
+				<article>
+
+					<hgroup>
+
+						<h2>Branching & Merging</h2>
+						<h3>Isolating work in branches, changing context, and integrating changes</h3>
+
+					</hgroup>
+
+					<table class="table table-striped">
+
+						<thead>
+
+						<tr>
+
+							<th>Command</th>
+							<th>Description</th>
+
+						</tr>
+
+						</thead>
+
+						<tbody>
+
+						<tr>
+
+							<td>git branch</td>
+							<td>list your branches. a * will appear next to the currently active branch.</td>
+
+						</tr>
+
+						<tr>
+
+							<td>git branch -a</td>
+							<td>list all branches (local and remote).</td>
+						
+						</tr>
+
+						<tr>
+
+							<td>git branch [branch name]</td>
+							<td>create a new branch.</td>
+						
+						</tr>
+
+						<tr>
+
+							<td>git checkout [branch name]</td>
+							<td>switch to the specified branch.</td>
+						
+						</tr>
+
+						<tr>
+
+							<td>git checkout -b [branch name]</td>
+							<td>create a new branch and switch to it.</td>
+						
+						</tr>
+
+						<tr>
+
+							<td>git checkout -b [branch name] origin/[branch name]</td>
+							<td>clone a remote branch and switch to it.</td>
+						
+						</tr>
+
+						<tr>
+
+							<td>git checkout -</td>
+							<td>switch to the branch last checked out.</td>
+						
+						</tr>
+
+						<tr>
+
+							<td>git checkout -- [file-name.txt]</td>
+							<td>discard changes to a file.</td>
+						
+						</tr>
+
+						<tr>
+
+							<td>git merge [branch name]</td>
+							<td>merge a branch into the active branch.</td>
+						
+						</tr>
+
+						<tr>
+
+							<td>git merge [source branch] [target branch]</td>
+							<td>merge a branch into a target branch.</td>
+						
+						</tr>
+
+						<tr>
+
+							<td>git log</td>
+							<td>show all commits in the current branch’s history.</td>
+						
+						</tr>
+
+						</tbody>
+
+					</table>
+
+				</article>
 				
 			</div>
 			
