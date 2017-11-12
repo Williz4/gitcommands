@@ -6,7 +6,7 @@
 
 ## Description
 
-Git commands is a simple site that serves as a reference point for the various Git commands for both the novice & experienced student.
+Git commands is a simple site that serves as a reference point for the various Git commands for both the novice & experienced coder.
 
 ## Setup/Installation Requirements
 

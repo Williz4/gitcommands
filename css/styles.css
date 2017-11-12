@@ -8,8 +8,13 @@
 }
 
 #banner {
-	height: 500px;
+	height: 400px;
 	width: 100%;
-	background-image: url(../img/doodle.jpg);
+	background-image: url(../img/doodle);
 	background-position: bottom center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
