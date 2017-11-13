@@ -10,7 +10,7 @@ Git commands is a simple site that serves as a reference point for the various G
 
 ## Setup/Installation Requirements
 
-* Load the page at ().
+* Load the page at (https://williz4.github.io/gitcommands/).
 * You are now free to view the various Git commands. 
 
 ## Known Bugs
