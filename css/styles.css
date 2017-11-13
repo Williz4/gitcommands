@@ -17,4 +17,48 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-bottom: 50px;
+}
+
+#main-content article {
+	margin-bottom: 50px;
+}
+
+#main-content h1, h2, h3, h4, h5, h6{
+	font-family: 'Fredericka the Great', cursive;
+	color: rgb(188, 216, 95);
+	font-weight: 600;
+	text-decoration: underline;
+	text-align: center;
+}
+
+/*#main-content table {
+	text-align: center;
+}*/
+
+#main-content thead {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 1.4em;
+}
+
+#main-content tbody{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2em;
+}
+
+tr td:first-of-type {
+	font-weight: 600;
+	color: rgb(94, 72, 118);
+}
+
+footer {
+	background-color: black;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.3em;
+	margin-top: 50px;
 }
