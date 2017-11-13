@@ -20,6 +20,12 @@
 	margin-bottom: 50px;
 }
 
+#banner-img {
+	background-image: url(../img/github.png);
+	width: 1125px;
+	height: 417px;
+}
+
 #main-content article {
 	margin-bottom: 50px;
 }
@@ -61,4 +67,11 @@ footer {
 	font-family: 'Raleway', sans-serif;
 	font-size: 1.3em;
 	margin-top: 50px;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 980px) and (min-width: 0px) {
+    #banner #banner-img{
+    		display: none;
+    }
 }
